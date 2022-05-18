@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_add_to_photos_24.xml" value="0.155" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_create_24.xml" value="0.155" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_delete_forever_24.xml" value="0.155" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_format_list_bulleted_24.xml" value="0.155" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_important_devices_24.xml" value="0.155" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_markunread_mailbox_24.xml" value="0.1" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_save_24.xml" value="0.1" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/ic_baseline_search_24.xml" value="0.159" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-anydpi/them2.xml" value="0.159" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/view_text.xml" value="0.1" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main_detail.xml" value="0.2" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main_detail_tb.xml" value="0.1453125" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main_loai_t_b.xml" value="0.1" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main_t_b.xml" value="0.2" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/ic_baseline_format_list_bulleted_24.xml" value="0.1453125" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/item_listview_layout.xml" value="0.15081521739130435" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/layout_thongke.xml" value="0.12360688956433637" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/listview_item.xml" value="0.1" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/listview_item_tb.xml" value="0.1" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/menu.xml" value="0.1453125" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/thongke1_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/menu/actionsearch.xml" value="0.1453125" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/menu/menu_actionbar.xml" value="0.1453125" />
+        <entry key="..\:/Android/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/menu/menu_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-mdpi/hover.xml" value="0.1145" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/bg_white_corner_border_gray.xml" value="0.1425" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/button_bg_color.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/cell_shape.xml" value="0.1145" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/custom_button.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/custom_button1.xml" value="0.1045" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/custom_button2.xml" value="0.12" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/custom_button3.xml" value="0.12" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/keylog.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/style_spinner.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/aclonica.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/alice.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/style_font.xml" value="0.26461538461538464" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_thongke.xml" value="0.1" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/dialog_add.xml" value="0.2" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/dialog_sua.xml" value="0.264" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/dong_noi_dung.xml" value="0.2" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/menu.xml" value="0.264" />
+        <entry key="..\:/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/menu/menu_menu.xml" value="0.1" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2305" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/account.xml" value="0.176" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/bg_white_corner_border_gray.xml" value="0.2035" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/cell_shape.xml" value="0.262" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/edittext_background_login.xml" value="0.1" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/keylog.xml" value="0.1" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/aclonica.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/alice.xml" value="0.35128205128205126" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/style_font.xml" value="0.35128205128205126" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_baocao.xml" value="0.32587064676616917" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_home.xml" value="0.24157303370786518" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_registration.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_send_email.xml" value="0.33" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_thongke.xml" value="0.1" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_thongke1.xml" value="0.3875" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_thongke2.xml" value="0.25" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_thongke3.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_thongke4.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/item_listview_layout.xml" value="0.3875" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/thongke1_item.xml" value="0.3875" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/thongke2_item.xml" value="0.1" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/thongke3_item.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/CCLaptop.com/AndroidStudioProjects/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/thongke4_item.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/HP/Desktop/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable-v24/ic_baseline_house_24.xml" value="0.1125" />
+        <entry key="..\:/Users/HP/Desktop/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main_detail_ph.xml" value="0.1" />
+        <entry key="..\:/Users/HP/Desktop/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_main_phong_hoc.xml" value="0.10104166666666667" />
+        <entry key="..\:/Users/HP/Desktop/Desktop/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/listview_item_ph.xml" value="0.10104166666666667" />
+        <entry key="..\:/android/11/5/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/drawable/keylog.xml" value="0.1" />
+        <entry key="..\:/android/11/5/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/font/alice.xml" value="0.13425925925925927" />
+        <entry key="..\:/android/11/5/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/android/11/5/Nhom28_GiuaKyQuanLyThietBiTruongHoc/app/src/main/res/layout/item_listview_layout.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

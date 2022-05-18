@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Thiết Bị Mượn"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#F30C0C"
+        android:fontFamily="@font/style_font">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_marginBottom="10dp"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:hint="Search"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/edtSearch"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Them"
+                android:id="@+id/btnSearch"
+                android:visibility="invisible"
+                />
+
+            <ImageView
+                android:id="@+id/imgTimKiem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_action_search" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Thoát"
+            android:background="@drawable/custom_button2"
+            android:id="@+id/btnThoat"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="20dp"
+
+
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Thêm"
+            android:background="@drawable/custom_button1"
+            android:id="@+id/btnThem"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+
+
+    <TableRow
+        android:id='@+id/simpleTableLayout'
+        android:layout_width='fill_parent'
+        android:layout_height='wrap_content'>
+
+        <TextView
+            android:layout_width='60dp'
+            android:layout_height='wrap_content'
+            android:background='#b0b0b0'
+            android:paddingBottom="18dip"
+            android:paddingTop="18dip"
+            android:text='Mã P'
+            android:textColor='#000'
+            android:textSize='18dp'
+            />
+        <TextView
+            android:layout_width='70dp'
+            android:layout_height='wrap_content'
+            android:background='#b0b0b0'
+            android:paddingBottom="18dip"
+            android:paddingTop="18dip"
+            android:text='Mã TB'
+            android:textColor='#000'
+            android:textSize='18dp' />
+
+        <TextView
+            android:layout_width='110dp'
+            android:layout_height='wrap_content'
+            android:background='#b0b0b0'
+            android:paddingBottom="18dip"
+            android:paddingTop="18dip"
+            android:text='Ngày'
+            android:textColor='#000'
+            android:textSize='18dp' />
+
+        <TextView
+            android:layout_width='wrap_content'
+            android:layout_height='wrap_content'
+            android:background='#b0b0b0'
+            android:paddingBottom="18dip"
+            android:paddingTop="18dip"
+            android:text='SL'
+            android:textColor='#000'
+            android:textSize='18dp' />
+        <TextView
+            android:layout_width='match_parent'
+            android:layout_height='wrap_content'
+            android:background='#b0b0b0'
+            android:padding='18dip'
+            android:text=''
+            android:textColor='#000'
+            android:textSize='18dp' />
+
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/lvNoiDung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:padding="8dp"
+    android:background="@color/white"
+    tools:context=".activity.BaoCaoActivity">
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lọc theo"/>
+
+            <Spinner
+                android:id="@+id/spnLocTheo"
+                android:layout_weight="2.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chọn thiết bị"/>
+
+            <Spinner
+                android:id="@+id/spnChonThietBi"
+                android:layout_weight="2.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLoc"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lọc"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearBaoCao"
+        android:background="@color/white"
+        android:layout_weight="94"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="50">
+
+        <TableLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100">
+
+            <TableRow>
+                <TextView
+                    android:text="STT"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_weight="10"/>
+
+                <TextView
+                    android:text="Loại Phòng"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_weight="35"/>
+
+                <TextView
+                    android:text="Tầng"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_weight="10"/>
+
+                <TextView
+                    android:text="Ngày SD"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_weight="35"/>
+
+                <TextView
+                    android:text="Số Lượng"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:layout_weight="10"/>
+            </TableRow>
+
+
+        </TableLayout>
+
+        <ListView
+            android:layout_weight="47"
+            android:id="@+id/lvBaoCao"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:paddingLeft="25dp"
+                android:text="Tổng số lượng"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvTongSoLuong"
+                android:layout_weight="0.5"
+                android:text="0"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:paddingLeft="25dp"
+                android:text=""
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_weight="1"
+                android:text="TPHCM, ngày...tháng...năm..."
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btnIn"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="In"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Created by 28Team"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

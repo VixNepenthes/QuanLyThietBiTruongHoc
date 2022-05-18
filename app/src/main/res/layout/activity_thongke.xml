@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_margin="20dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THỐNG KÊ"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#add8e6">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#fafad2"
+        android:text="1. Danh sách thiết bị sử dụng cho loại phòng"
+        android:textColor="#4b0082"
+        android:textSize="20dp"
+        android:id="@+id/btnTke1"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:backgroundTint="#fafad2"
+        android:text="2. Tìm các phòng học chưa trang bị Micro"
+        android:textColor="#4b0082"
+        android:textSize="20dp"
+        android:id="@+id/btnTke2"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#fafad2"
+        android:text="3. Liệt kê phòng học có sử dụng cả hai thiết bị"
+        android:textColor="#4b0082"
+        android:textSize="20dp"
+        android:id="@+id/btnTke3"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#fafad2"
+        android:text="4. Thống kê tổng số lượng sử dụng của từng thiết bị"
+        android:textColor="#4b0082"
+        android:textSize="20dp"
+        android:id="@+id/btnTke4"
+        >
+    </Button>
+
+</LinearLayout>

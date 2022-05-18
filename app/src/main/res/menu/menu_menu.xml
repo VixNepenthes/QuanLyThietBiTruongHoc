@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Phòng học" android:id="@+id/ph"/>
+    <item android:title="Thiết Bị" android:id="@+id/tb"/>
+    <item android:title="Chi Tiết Thiết Bị" android:id="@+id/ct"/>
+    <item android:title="Thống Kê" android:id="@+id/thongke"/>
+</menu>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm thiết bị mượn"
+        android:textSize="30sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Mã Phòng: "
+        android:textSize="18dp"
+        android:textColor="#000"
+        ></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã phòng học"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:id="@+id/maP"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Mã Thiết Bị: "
+            android:textSize="18dp"
+            android:textColor="#000"></TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã thiết bị"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:id="@+id/maTB"
+        /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ngày Mượn: "
+            android:textSize="18dp"
+            android:textColor="#000"
+            ></TextView>
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:hint="Ngày mượn"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:id="@+id/ngay"
+        android:enabled="false"
+        />
+      <ImageView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ic_action_date"
+          android:paddingTop="12dp"
+          android:id="@+id/etDate"
+          />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Số Lượng: "
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_weight="1"
+            ></TextView>
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Số lượng"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:id="@+id/soluong"
+        android:layout_weight="1"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Hình ảnh: "
+            android:textSize="18dp"
+            android:textColor="#000"
+            ></TextView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/folder"
+            android:background="#FFEB3B"
+            android:id="@+id/selectImg"
+            android:layout_marginLeft="10dp"
+            ></ImageView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/b"></ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:id="@+id/btnhuy"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button2"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thêm"
+            android:id="@+id/btnAdd"
+            android:layout_margin="5dp"
+            android:background="@drawable/custom_button3"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

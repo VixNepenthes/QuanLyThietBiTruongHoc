@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903010201423",
+    "project_id": "quanlythietbitruonghoc-5aa30",
+    "storage_bucket": "quanlythietbitruonghoc-5aa30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903010201423:android:e67e17b00de3fef0a6df3a",
+        "android_client_info": {
+          "package_name": "com.example.nhom28_giuakyquanlythietbitruonghoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903010201423-v5omb8l1pol3l2kp5e6hlg0l5mvbov4j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj7e8pDxaFhonvj0udfhSJwbKnTk7qluk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903010201423-v5omb8l1pol3l2kp5e6hlg0l5mvbov4j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

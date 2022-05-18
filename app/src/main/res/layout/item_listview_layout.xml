@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvSTT"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_weight="10"/>
+
+        <TextView
+            android:id="@+id/tvLoaiPhong"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_weight="35"/>
+
+        <TextView
+            android:id="@+id/tvTang"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_weight="10"/>
+
+        <TextView
+            android:id="@+id/tvNgaySD"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_weight="35"/>
+
+        <TextView
+            android:id="@+id/tvSoLuong"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:layout_weight="10"/>
+    </TableRow>
+
+</TableLayout>

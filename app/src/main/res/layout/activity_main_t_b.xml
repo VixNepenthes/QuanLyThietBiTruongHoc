@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".activity.MainTB">
+
+    <TextView
+        style="@style/TieuDe"
+        android:layout_height="72dp"
+        android:layout_width="wrap_content"
+        android:text="@string/tbi"></TextView>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/matb" />
+
+        <EditText
+            android:id="@+id/txtMaTB"
+            style="@style/edittext"
+            android:layout_height="wrap_content"
+            android:layout_width="297dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            style="@style/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tentb" />
+
+        <EditText
+            android:id="@+id/txtTenTB"
+            style="@style/edittext"
+            android:layout_height="wrap_content"
+            android:layout_width="296dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_height="wrap_content"
+        android:layout_width="411dp">
+
+        <TextView
+            style="@style/textview"
+            android:layout_height="wrap_content"
+            android:layout_width="99dp"
+            android:text="@string/xx" />
+
+        <EditText
+            android:id="@+id/txtXuatXu"
+            style="@style/edittext"
+            android:layout_height="wrap_content"
+            android:layout_width="304dp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_height="wrap_content"
+        android:layout_width="411dp">
+
+        <TextView
+            style="@style/textview"
+            android:layout_height="wrap_content"
+            android:layout_width="98dp"
+            android:text="@string/ml" />
+
+        <Spinner
+            android:id="@+id/spMaLoai"
+            style="@style/spMaLoai"
+            android:layout_height="wrap_content"
+            android:layout_width="298dp"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThem"
+            style="@style/ChucNang"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_add_to_photos_24"
+            android:text="@string/them" />\
+
+        <Button
+            android:id="@+id/btnXoa"
+            style="@style/ChucNang"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_delete_forever_24"
+            android:text="@string/xoa" />
+
+        <Button
+            android:id="@+id/btnSua"
+            style="@style/ChucNang"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_create_24"
+            android:text="@string/sua" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lvDanhSach"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></ListView>
+
+
+</LinearLayout>
